@@ -263,6 +263,10 @@
     text-decoration: none;
 }
 
+span {
+    color: aqua;
+}
+
 @media screen and (max-width: 1024px) {
 
     .navbar ul {
@@ -459,5 +463,78 @@
 
     .between {
         width: 425px;
+    }
+
+    .logo h1 {
+        height: 20px;
+        color: black;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .bg {
+        padding: 15px;
+    }
+
+    .aduhh {
+        width: 375px;
+    }
+
+    .one {
+        width: 375px;
+    }
+
+    .one img {
+        width: 325px;
+    }
+
+    .between {
+        width: 375px;
+    }
+
+    .centerhw {
+        width: 350px;
+    }
+
+    .centerhw .two p {
+        width: 350px;
+    }
+
+    .centerhw .two h2 {
+        margin-left: 55px;
+    }
+
+    .oke {
+        width: 350px;
+    }
+
+    .oke p {
+        width: 350px;
+    }
+
+    .baruu img {
+        width: 300px;
+        margin: 1px;
+    }
+
+    .word {
+        width: 375px;
+    }
+
+    .gambar img {
+        width: 300px;
+    }
+
+    .tree {
+        width: 325px;
+    }
+
+    .tree img {
+        width: 325px;
     }
 }
