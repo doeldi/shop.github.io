@@ -475,6 +475,8 @@ span {
 @media screen and (max-width: 375px) {
     .logo h1 {
         font-size: 20px;
+        height: 10px;
+        margin-top: 3px;
     }
 
     .bg {
@@ -536,5 +538,73 @@ span {
 
     .tree img {
         width: 325px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo h1 {
+        font-size: 15px;
+        margin-top: 6px;
+    }
+
+    .bg {
+        padding: 15px;
+    }
+
+    .aduhh {
+        width: 320px;
+    }
+
+    .one {
+        width: 320px;
+    }
+
+    .one img {
+        width: 270px;
+    }
+
+    .between {
+        width: 320px;
+    }
+
+    .centerhw {
+        width: 295px;
+    }
+
+    .centerhw .two p {
+        width: 295px;
+    }
+
+    .centerhw .two h2 {
+        margin-left: 20px;
+    }
+
+    .oke {
+        width: 295px;
+    }
+
+    .oke p {
+        width: 295px;
+    }
+
+    .baruu img {
+        width: 270px;
+        margin: 1px;
+    }
+
+    .word {
+        width: 320px;
+    }
+
+    .gambar img {
+        width: 300px;
+    }
+
+    .tree {
+        width: 270px;
+    }
+
+    .tree img {
+        width: 270px;
     }
 }
